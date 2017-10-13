@@ -28,8 +28,8 @@ class YouTubeDebugger extends React.Component {
         settings: Object.assign( {}, this.state.settings, {
           bitrate: 12,
       }),
-  });
-  
+  };
+
   render() {
     return (
       <div>
